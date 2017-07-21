@@ -88,8 +88,8 @@
  */
 
  $databases = array (
-                     'default' =>
-                        array (
+                 'default' =>
+                      array (
                                'default' =>
                                array (
                                       'database' => 'drupal',
