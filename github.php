@@ -1,3 +1,7 @@
 <?php 
-shell_exec('git pull');
+$cmd = shell_exec("git pull");
+
+#for debugging
+echo $cmd;
+
 ?>
