@@ -88,7 +88,7 @@
  */
 
  $databases = array (
-                        'default' =>
+                     'default' =>
                         array (
                                'default' =>
                                array (
