@@ -109,7 +109,6 @@ script:
   - cd $TRAVIS_BUILD_DIR/drupal
   - phpunit -c core/phpunit.xml.dist modules/$MODULE_NAME --debug --testdox
 
-
   # Behat Tests - RUN THESE LAST OTHERWISE PHPUNIT WILL FAIL BECAUSE OF DEPENDENCY CONFLICTS
   - cd $TRAVIS_BUILD_DIR/drupal/modules/$MODULE_NAME
   - composer install
