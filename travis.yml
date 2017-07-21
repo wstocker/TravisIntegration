@@ -1,6 +1,5 @@
 # @file
 # .travis.yml - Drupal 8 Travis CI Integration
-
 language: php
 
 sudo: false
@@ -68,7 +67,7 @@ install:
   - rm -f drupal/modules/$MODULE_NAME/drupal
 
   - cd drupal
-
+  
 before_script:
 
   # This fixes a fail when install Drupal.
