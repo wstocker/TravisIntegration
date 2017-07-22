@@ -6,4 +6,6 @@ $repo = Git::open('~/public_html/wendydev/drupal8/TravisIntegration');  // -or- 
 
 $repo->pull('origin', 'master');
 
+var_dump($repo);
+
 ?>
