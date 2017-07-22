@@ -1,6 +1,6 @@
 <?php
 
-require_once('Git.php');
+include('Git.php');
 
 //$repo = Git::open('~/public_html/wendydev/drupal8/TravisIntegration');  // -or- Git::create('/path/to/repo')
 
