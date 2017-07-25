@@ -1,0 +1,6 @@
+name: Github
+description: Automates git on code merges into master on github
+package: Custom
+type: module
+version: 1.0
+core: 8.x
