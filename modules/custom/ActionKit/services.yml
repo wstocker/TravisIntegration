@@ -1,0 +1,5 @@
+ActionKit.services.yml
+services:
+  ActionKit.client:
+    class: '\Drupal\ActionKit\Client\MyClient'
+    arguments: ['@http_client', '@key.repository', '@config.factory']
